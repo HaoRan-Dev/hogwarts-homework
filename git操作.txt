@@ -1,0 +1,20 @@
+ git操作：
+git config --global user.name "吕皓然"
+ git config --global user.email "1072961848@qq.com"
+ git config --list
+
+gitee：
+
+git init
+git add README.md
+git commit -m "first coommit"
+git remote add origin https://gitee.com/lv-haoran-dev/hogwarts.git
+git push -u origin master
+
+echo "#仓库名" >> README.md
+git init
+git add 文件名
+git commit -m " 注释"
+git brance -M main 
+git remote add origin https://github.com/HaoRan-Dev/仓库名.git
+git push -u origin main （第一次次使用这个远程命令，后面使用git push）
